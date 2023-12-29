@@ -10,6 +10,8 @@
 
 LOCAL_PATH := $(my-dir)
 
+ifneq ($(BOARD_IS_ZENITH_BUILD),true)
 TARGET_EXTRA_KERNEL_MODULES += $(patsubst $(LOCAL_PATH)/%/Android.mk,%,$(wildcard $(LOCAL_PATH)/*/Android.mk))
 
 include $(call all-subdir-makefiles)
+endif
