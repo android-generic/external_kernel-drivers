@@ -2,10 +2,6 @@
 	path = broadcom-wl
 	url = https://github.com/supremegamers/broadcom-wl
 	branch = android
-[submodule "xpad"]
-	path = xpad
-	url = https://github.com/supremegamers/xpad
-	branch = android
 [submodule "openrazer"]
 	path = openrazer
 	url = https://github.com/supremegamers/openrazer
