@@ -18,9 +18,6 @@
 [submodule "rtl88x2bu"]
 	path = rtl88x2bu
 	url = https://github.com/supremegamers/88x2bu-20210702
-[submodule "gslx680-acpi"]
-	path = gslx680-acpi
-	url = https://github.com/supremegamers/gslx680-acpi
 [submodule "rtl8821ce"]
 	path = rtl8821ce
 	url = https://github.com/supremegamers/rtl8821ce
