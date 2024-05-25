@@ -13,9 +13,6 @@
 [submodule "rtl8812au"]
 	path = rtl8812au
 	url = https://github.com/supremegamers/rtl8812au
-[submodule "rtl8723bs"]
-	path = rtl8723bs
-	url = https://github.com/supremegamers/rockchip_wlan
 [submodule "rtl8821cu"]
 	path = rtl8821cu
 	url = https://github.com/supremegamers/8821cu-20210118
