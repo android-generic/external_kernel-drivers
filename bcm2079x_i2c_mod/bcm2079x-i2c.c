@@ -272,7 +272,7 @@ static long bcm2079x_dev_unlocked_ioctl(struct file *filp,
 
 static const struct file_operations bcm2079x_dev_fops = {
 	.owner = THIS_MODULE,
-	.llseek = no_llseek,
+	.llseek = noop_llseek,
 	.poll = bcm2079x_dev_poll,
 	.read = bcm2079x_dev_read,
 	.write = bcm2079x_dev_write,
